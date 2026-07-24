@@ -1,4 +1,12 @@
+import Chai from "./chai";
+
 function App() {
-  return <h1>Vite React Working</h1>;
+  return(
+  <>
+    <h1>The Vite Project</h1>
+    <Chai />
+  </>
+  )
 }
+
 export default App;
