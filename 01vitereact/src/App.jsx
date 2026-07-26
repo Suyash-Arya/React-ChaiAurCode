@@ -1,12 +1,13 @@
 import Chai from "./chai";
 
 function App() {
-  return(
-  <>
-    <h1>The Vite Project</h1>
-    <Chai />
-  </>
-  )
+  const Username = "Suyash Arya";
+  return (
+    <>
+      <h1>The Vite Project {Username} </h1>
+      <Chai />
+    </>
+  );
 }
 
 export default App;
